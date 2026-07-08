@@ -1,0 +1,127 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: Inter, "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+.header {
+  min-height: 720px;
+  max-height: 800px;
+  display: block;
+  position: relative;
+  background-image: url("/images/background_header.svg");
+  margin-left: 80px;
+}
+
+.header-image {
+  width: 646px;
+  height: 568px;
+  position: absolute;
+  top: 87px;
+  right: 5px;
+}
+.nav {
+  display: flex;
+  background-color: #ffff;
+  margin-top: 30px;
+  align-content: left;
+}
+.nav a {
+  text-decoration: none;
+  color: #000000;
+}
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 105px;
+  height: 39px;
+}
+nav > .nav-links {
+  top: 30px;
+  display: flex;
+  position: fixed;
+  right: 26px;
+  padding-right: 20px;
+  justify-content: end;
+  list-style-type: none;
+  font-family: Inter, "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-wrap: nowrap;
+  gap: 20px;
+}
+
+.header-title {
+  font-family: Inter, "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 72px;
+  letter-spacing: -1px;
+  margin-top: 183px;
+  width: 480px;
+}
+
+.span-accent {
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 58px;
+  line-height: 72px;
+  color: #ff976b;
+}
+
+.header-description {
+  font-family: Inter, "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 683px;
+}
+
+.content {
+  position: absolute;
+  bottom: 40px;
+  font-family: Inter, "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+
+.footer {
+  margin: 0;
+}
+
+p {
+  font-family: Inter, "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6f6f6f;
+}
+
+.hours {
+  position: absolute;
+  bottom: 40px;
+  width: 320px;
+}
+
+.address {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+}
