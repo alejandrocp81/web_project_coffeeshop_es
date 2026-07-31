@@ -57,7 +57,62 @@
       </p>
       <p class="address">Avenida del Éxito 200, Ciudad Triple Peaks</p>
     </header>
-    <main class="content"></main>
-    <footer class="footer"></footer>
+    <section class="reservation" id="reservas">
+      <h1 class="header-reservation">Reservar una mesa</h1>
+      <form>
+        <fieldset>
+          <label for="name"> Nombre *: </label>
+          <input type="text" id="name" placeholder="Nombre" required />
+
+          <label for="number"> Numero de comensales *: </label>
+          <input type="number" id="number" placeholder="1-8" required />
+
+          <label for="date"> Fecha y hora *: </label>
+          <input
+            type="datetime-local"
+            id="date"
+            min="1"
+            max="8"
+            placeholder="1-8"
+            required
+          />
+
+          <label for="email"> Tu correo electrónico *: </label>
+          <input
+            type="email"
+            id="email"
+            placeholder="email@email.com"
+            required
+          />
+
+          <button class="btn-form" type="submit">Reservar una mesa</button>
+
+          <label class="aceptar" for="checkbox">
+            <input type="checkbox" id="checkbox" required />Acepto lo términos
+            de uso
+          </label>
+        </fieldset>
+      </form>
+    </section>
+    <footer class="footer" id="contactos">
+      <div class="social_media">
+<img
+          class="logo-light"
+          alt="logotipo coffee-shop blanco"
+          src="images/logo_coffeeshop_light.svg"
+        />
+        <div class="circulo"></div>
+        <h4 class="header-redes">Redes sociales</h4>
+        <ul>
+          <li><a href="#"><img class="icon-fb"
+          alt="logotipo facebook"
+          src="images/facebook_white.svg">Facebook</li>
+          <li><a href="#"><img class="icon-ig"
+          alt="logotipo instagram"
+          src="images/instagram_white.svg">Instagram</a></li>
+        </ul>
+       <p class="copyright"> © 2026 Alejandro Cruz</p>
+      </div>
+    </footer>
   </body>
 </html>

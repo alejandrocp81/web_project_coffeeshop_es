@@ -37,6 +37,11 @@ body {
   text-decoration: none;
   color: #000000;
 }
+
+.nav a:hover {
+  color: #ff976b;
+}
+
 .logo {
   position: absolute;
   top: 30px;
@@ -101,17 +106,14 @@ nav > .nav-links {
   color: #6f6f6f;
 }
 
-.footer {
-  margin: 0;
-}
-
-p {
-  font-family: Inter, "Arial", sans-serif;
+label {
+  font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #6f6f6f;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: left;
+  margin: 8px 0;
 }
 
 .hours {
@@ -124,4 +126,194 @@ p {
   position: absolute;
   bottom: 40px;
   right: 80px;
+}
+
+.reservation {
+  text-align: center;
+  background-color: #ffd6c5;
+  background-image: url("/images/background_reservation.svg");
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.header-reservation {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+fieldset {
+  display: block;
+  max-width: 385px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 80px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+#checkbox {
+  box-sizing: border-box;
+  border-radius: 2px;
+  border-color: #4f4f4f;
+  gap: 12px;
+}
+
+.btn-form {
+  background-color: #e96e3a;
+  border-radius: 4px;
+  height: 60px;
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border: 0;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.btn-form:hover {
+  opacity: 0.7;
+}
+input {
+  box-sizing: border-box;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #838383;
+  height: 60px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 32px;
+  padding: 20px;
+}
+
+input#email {
+  margin-bottom: 32px;
+}
+.aceptar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer {
+  background-color: #d35722;
+  margin: 0;
+  padding: 60px 80px 60px 80px;
+  overflow: hidden;
+}
+
+.circulo {
+  position: absolute;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  top: -248px;
+  left: -144px;
+  background-color: #e96e3a;
+  z-index: 0;
+}
+
+.header-redes {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: right;
+  margin-top: -60px;
+}
+
+ul {
+  color: #ffffff;
+  transition: color 0.3s ease;
+  cursor: pointer;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+li a:hover {
+  color: #ffd6c5;
+}
+
+.logo-light {
+  width: 105px;
+  height: 39px;
+}
+
+.social_media {
+  flex-direction: row;
+}
+
+.icon-fb {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.icon-ig {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  color: #ffffff;
+}
+
+a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.copyright {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  align-self: baseline;
+  z-index: 1;
+  color: #ffffff;
+}
+
+.logo-light,
+.header-redes,
+.copyright,
+.social_media {
+  position: relative;
+  z-index: 1;
 }
